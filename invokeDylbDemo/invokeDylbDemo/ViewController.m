@@ -1,15 +1,28 @@
 //
-//  testLibObject.m
-//  testProject
+//  ViewController.m
+//  invokeDylbDemo
 //
 //  Created by garin on 16/4/20.
-//  Copyright © 2016年 garin. All rights reserved.
+//  Copyright © 2016年 com.abc.abc. All rights reserved.
 //
 
-#import "testLibObject.h"
-#import <UIKit/UIKit.h>
+#import "ViewController.h"
 
-@implementation testLibObject
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)loadDyldBtnClick:(id)sender {
+    
+    [self testLib];
+}
 
 -(void) testLib
 {
@@ -59,7 +72,7 @@
      *通过NSClassFromString方式读取类
      *PacteraFramework　为动态库中入口类
      */
-    Class pacteraClass = NSClassFromString(@"ViewController");
+    Class pacteraClass = NSClassFromString(@"MainViewController");
     if (!pacteraClass) {
         NSLog(@"Unable to get TestDylib class");
         return;
@@ -77,9 +90,14 @@
     
     if ([pacteraObject isKindOfClass:[UIViewController class]])
     {
-//        [[self presentViewController:(UIViewController *)pacteraObject animated:YES completion:nil];
+        [self presentViewController:(UIViewController *)pacteraObject animated:YES completion:nil];
     }
 }
 
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
 
 @end

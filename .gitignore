@@ -18,3 +18,7 @@ Products/FaxianFramework.framework/FaxianFramework
 Products/FaxianFramework.framework/Headers/FaxianFramework.h
 
 Products/FaxianFramework.framework/Modules/module.modulemap
+
+*.xcbkptlist
+
+invokeDylbDemo/invokeDylbDemo.xcodeproj/xcuserdata/garin.xcuserdatad/xcschemes/xcschememanagement.plist
