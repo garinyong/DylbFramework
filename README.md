@@ -5,7 +5,7 @@ iOS dylb
 
 2.运行时调用动态库,不用引入头文件，实现按需加载
 
-Minimum iOS Target : iOS 6
+Minimum iOS Target : iOS 7
 
 动态库代码：FaxianFramework
 
