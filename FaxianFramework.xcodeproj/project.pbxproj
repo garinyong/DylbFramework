@@ -22,8 +22,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		96EBE0141CC0EC06006CBA4E /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EBE0121CC0EC06006CBA4E /* ViewController.h */; };
-		96EBE0151CC0EC06006CBA4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBE0131CC0EC06006CBA4E /* ViewController.m */; };
+		96EBE0141CC0EC06006CBA4E /* MainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EBE0121CC0EC06006CBA4E /* MainViewController.h */; };
+		96EBE0151CC0EC06006CBA4E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBE0131CC0EC06006CBA4E /* MainViewController.m */; };
 		96EBE0171CC0ECDA006CBA4E /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 96EBE0161CC0ECDA006CBA4E /* 11.png */; };
 		96EEA5B81CC0D5AE005ADE72 /* FaxianFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EEA5B71CC0D5AE005ADE72 /* FaxianFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -39,8 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		96EBE0121CC0EC06006CBA4E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		96EBE0131CC0EC06006CBA4E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96EBE0121CC0EC06006CBA4E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		96EBE0131CC0EC06006CBA4E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		96EBE0161CC0ECDA006CBA4E /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
 		96EEA5B41CC0D5AE005ADE72 /* FaxianFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FaxianFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EEA5B71CC0D5AE005ADE72 /* FaxianFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaxianFramework.h; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 				96EBE0161CC0ECDA006CBA4E /* 11.png */,
 				96EEA5B71CC0D5AE005ADE72 /* FaxianFramework.h */,
 				96EEA5B91CC0D5AE005ADE72 /* Info.plist */,
-				96EBE0121CC0EC06006CBA4E /* ViewController.h */,
-				96EBE0131CC0EC06006CBA4E /* ViewController.m */,
+				96EBE0121CC0EC06006CBA4E /* MainViewController.h */,
+				96EBE0131CC0EC06006CBA4E /* MainViewController.m */,
 			);
 			path = FaxianFramework;
 			sourceTree = "<group>";
@@ -94,7 +94,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96EEA5B81CC0D5AE005ADE72 /* FaxianFramework.h in Headers */,
-				96EBE0141CC0EC06006CBA4E /* ViewController.h in Headers */,
+				96EBE0141CC0EC06006CBA4E /* MainViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96EBE0151CC0EC06006CBA4E /* ViewController.m in Sources */,
+				96EBE0151CC0EC06006CBA4E /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
